@@ -1,0 +1,194 @@
+/* CSS untuk styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+section {
+    margin-top: 70px;
+}
+
+.menu-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.menu-card img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 20px;
+}
+
+.menu-details {
+    flex-grow: 1;
+}
+
+.menu-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.menu-quantity button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.invoice {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.pesanan-card {
+    display: flex;
+    padding: 10px;
+    width: 400px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.btnPop {
+    display: flex;
+    max-width: 80px;
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+img.anime {
+    width: 200px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    margin-top: -20%;
+    margin-left: 55%;
+}
+
+/*header #myHeader h1{
+      display: block;
+      background-color: white;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;*/
+/*      float: center;*/
+/*   z-index: 5;
+      transition: 3.0s;*/
+/*      width: 100%;*/
+/*margin: 0 auto;*/
+/*    }*/
+
+/*    section {*/
+/*    height: 1000px; /* Dummy content for scrolling */
+/*    }*/
+
+header {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    transition: top 0.3s;
+    margin: 0 auto;
+    margin-left: 0;
+    z-index: 2;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    /* position: fixed; */
+    background-color: black;
+    justify-content: center;
+    margin-bottom: 0;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.listOrder {
+    background-color: aliceblue;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    /* top: 10%; */
+    margin: 0 auto;
+    transform-origin: 0 0;
+    font-size: small;
+    /* margin-bottom: 10px; */
+}
